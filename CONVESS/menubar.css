@@ -1,0 +1,97 @@
+*{
+    background-color: #FFEFD5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#topnav{
+ display: inline;
+}
+
+#logobar{
+    max-width:100%;
+    height:25%;
+    background-color: #CEAA9A;
+    border: 5px solid;
+    border-color: #69513C;
+    border-radius: 20px;
+    margin-top:1%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: sticky;
+    margin-bottom: 15px;
+}
+
+#navnav{
+    border-radius: 20px;
+    background-color: #A17A69;
+}
+
+.profile {
+    float: right;
+    display: inline;
+    background-color: transparent;
+}
+
+#navbar{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.navitem {
+    height: 30px;
+    line-height: 30px;
+    font-size:x-large;
+    text-align: center;
+    text-decoration: none;
+    border: 4px solid;
+    border-color: #69513C;
+    border-radius: 15px;
+    width:17%;
+    background-color: #A17A69;
+}
+
+.navitem a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #E8DBD5;
+}
+
+.navitem :hover {
+    color: #FFEFD5;
+}
+
+.dropdowns {
+    display: inline;
+    text-align: center;
+}
+
+.dropdownbar {
+    background-color: tras;
+}
+
+.ditem {
+    height: 30px;
+    line-height: 30px;
+    font-size:x-large;
+    text-align: center;
+    text-decoration: none;
+    border: 4px solid;
+    border-color: #69513C;
+    border-radius: 15px;
+    width:auto;
+    background-color: #A17A69;
+}
+
+.ditem a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #E8DBD5;
+}
